@@ -1,0 +1,546 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "workUnixMilliseconds"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "workUnixMilliseconds"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "workUnixMilliseconds"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ConverterOfUnixMillisecondsInDateTime",
+      "printedName": "ConverterOfUnixMillisecondsInDateTime",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "date",
+          "printedName": "date",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.Date?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Date",
+                  "printedName": "Foundation.Date",
+                  "usr": "s:10Foundation4DateV"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:20workUnixMilliseconds011ConverterOfbC10InDateTimeC4date10Foundation0G0VSgvp",
+          "mangledName": "$s20workUnixMilliseconds011ConverterOfbC10InDateTimeC4date10Foundation0G0VSgvp",
+          "moduleName": "workUnixMilliseconds",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Foundation.Date?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Date",
+                      "printedName": "Foundation.Date",
+                      "usr": "s:10Foundation4DateV"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:20workUnixMilliseconds011ConverterOfbC10InDateTimeC4date10Foundation0G0VSgvg",
+              "mangledName": "$s20workUnixMilliseconds011ConverterOfbC10InDateTimeC4date10Foundation0G0VSgvg",
+              "moduleName": "workUnixMilliseconds",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Foundation.Date?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Date",
+                      "printedName": "Foundation.Date",
+                      "usr": "s:10Foundation4DateV"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:20workUnixMilliseconds011ConverterOfbC10InDateTimeC4date10Foundation0G0VSgvs",
+              "mangledName": "$s20workUnixMilliseconds011ConverterOfbC10InDateTimeC4date10Foundation0G0VSgvs",
+              "moduleName": "workUnixMilliseconds",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:20workUnixMilliseconds011ConverterOfbC10InDateTimeC4date10Foundation0G0VSgvM",
+              "mangledName": "$s20workUnixMilliseconds011ConverterOfbC10InDateTimeC4date10Foundation0G0VSgvM",
+              "moduleName": "workUnixMilliseconds",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "millisecondsInOneSecond",
+          "printedName": "millisecondsInOneSecond",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:20workUnixMilliseconds011ConverterOfbC10InDateTimeC012millisecondsF9OneSecondSdvp",
+          "mangledName": "$s20workUnixMilliseconds011ConverterOfbC10InDateTimeC012millisecondsF9OneSecondSdvp",
+          "moduleName": "workUnixMilliseconds",
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:20workUnixMilliseconds011ConverterOfbC10InDateTimeC012millisecondsF9OneSecondSdvg",
+              "mangledName": "$s20workUnixMilliseconds011ConverterOfbC10InDateTimeC012millisecondsF9OneSecondSdvg",
+              "moduleName": "workUnixMilliseconds",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "countries",
+          "printedName": "countries",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Dictionary",
+              "printedName": "[Swift.String : Swift.Double]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Double",
+                  "printedName": "Swift.Double",
+                  "usr": "s:Sd"
+                }
+              ],
+              "usr": "s:SD"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:20workUnixMilliseconds011ConverterOfbC10InDateTimeC9countriesSDySSSdGvp",
+          "mangledName": "$s20workUnixMilliseconds011ConverterOfbC10InDateTimeC9countriesSDySSSdGvp",
+          "moduleName": "workUnixMilliseconds",
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Dictionary",
+                  "printedName": "[Swift.String : Swift.Double]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Double",
+                      "printedName": "Swift.Double",
+                      "usr": "s:Sd"
+                    }
+                  ],
+                  "usr": "s:SD"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:20workUnixMilliseconds011ConverterOfbC10InDateTimeC9countriesSDySSSdGvg",
+              "mangledName": "$s20workUnixMilliseconds011ConverterOfbC10InDateTimeC9countriesSDySSSdGvg",
+              "moduleName": "workUnixMilliseconds",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "calculateUnixTimeInDateTimeInTimeZone",
+          "printedName": "calculateUnixTimeInDateTimeInTimeZone(unixTimeInMillisseconds:diferenceTime:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Date",
+              "printedName": "Foundation.Date",
+              "usr": "s:10Foundation4DateV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "paramValueOwnership": "InOut",
+              "usr": "s:Sd"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "paramValueOwnership": "InOut",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:20workUnixMilliseconds011ConverterOfbC10InDateTimeC09calculatebhfghfH4Zone04unixhF13Millisseconds09diferenceH010Foundation0G0VSdz_SdztF",
+          "mangledName": "$s20workUnixMilliseconds011ConverterOfbC10InDateTimeC09calculatebhfghfH4Zone04unixhF13Millisseconds09diferenceH010Foundation0G0VSdz_SdztF",
+          "moduleName": "workUnixMilliseconds",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "printCountries",
+          "printedName": "printCountries()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:20workUnixMilliseconds011ConverterOfbC10InDateTimeC14printCountriesSSyF",
+          "mangledName": "$s20workUnixMilliseconds011ConverterOfbC10InDateTimeC14printCountriesSSyF",
+          "moduleName": "workUnixMilliseconds",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ConverterOfUnixMillisecondsInDateTime",
+              "printedName": "workUnixMilliseconds.ConverterOfUnixMillisecondsInDateTime",
+              "usr": "s:20workUnixMilliseconds011ConverterOfbC10InDateTimeC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:20workUnixMilliseconds011ConverterOfbC10InDateTimeCACycfc",
+          "mangledName": "$s20workUnixMilliseconds011ConverterOfbC10InDateTimeCACycfc",
+          "moduleName": "workUnixMilliseconds",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:20workUnixMilliseconds011ConverterOfbC10InDateTimeC",
+      "mangledName": "$s20workUnixMilliseconds011ConverterOfbC10InDateTimeC",
+      "moduleName": "workUnixMilliseconds",
+      "isOpen": true
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "workUnixMilliseconds"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "workUnixMilliseconds"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "workUnixMilliseconds"
+    },
+    {
+      "kind": "Var",
+      "name": "timeInMilliseconds",
+      "printedName": "timeInMilliseconds",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "Optional",
+          "printedName": "Swift.Double?",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "usr": "s:Sq"
+        }
+      ],
+      "declKind": "Var",
+      "usr": "s:20workUnixMilliseconds06timeInC0SdSgvp",
+      "mangledName": "$s20workUnixMilliseconds06timeInC0SdSgvp",
+      "moduleName": "workUnixMilliseconds",
+      "declAttributes": [
+        "HasInitialValue",
+        "HasStorage"
+      ],
+      "hasStorage": true
+    },
+    {
+      "kind": "Var",
+      "name": "converterOfUnixMillisecondsInDateTime",
+      "printedName": "converterOfUnixMillisecondsInDateTime",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "ConverterOfUnixMillisecondsInDateTime",
+          "printedName": "workUnixMilliseconds.ConverterOfUnixMillisecondsInDateTime",
+          "usr": "s:20workUnixMilliseconds011ConverterOfbC10InDateTimeC"
+        }
+      ],
+      "declKind": "Var",
+      "usr": "s:20workUnixMilliseconds011converterOfbC10InDateTimeAA09ConverterebcfgH0Cvp",
+      "mangledName": "$s20workUnixMilliseconds011converterOfbC10InDateTimeAA09ConverterebcfgH0Cvp",
+      "moduleName": "workUnixMilliseconds",
+      "declAttributes": [
+        "HasInitialValue",
+        "HasStorage"
+      ],
+      "hasStorage": true
+    },
+    {
+      "kind": "Var",
+      "name": "avalibleCountries",
+      "printedName": "avalibleCountries",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "Dictionary",
+          "printedName": "[Swift.String : Swift.Double]",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "usr": "s:SD"
+        }
+      ],
+      "declKind": "Var",
+      "usr": "s:20workUnixMilliseconds17avalibleCountriesSDySSSdGvp",
+      "mangledName": "$s20workUnixMilliseconds17avalibleCountriesSDySSSdGvp",
+      "moduleName": "workUnixMilliseconds",
+      "declAttributes": [
+        "HasInitialValue",
+        "HasStorage"
+      ],
+      "isLet": true,
+      "hasStorage": true
+    },
+    {
+      "kind": "Var",
+      "name": "countrySelected",
+      "printedName": "countrySelected",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "String",
+          "printedName": "Swift.String",
+          "usr": "s:SS"
+        }
+      ],
+      "declKind": "Var",
+      "usr": "s:20workUnixMilliseconds15countrySelectedSSvp",
+      "mangledName": "$s20workUnixMilliseconds15countrySelectedSSvp",
+      "moduleName": "workUnixMilliseconds",
+      "declAttributes": [
+        "HasStorage"
+      ],
+      "hasStorage": true
+    },
+    {
+      "kind": "Var",
+      "name": "valideCountry",
+      "printedName": "valideCountry",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "Bool",
+          "printedName": "Swift.Bool",
+          "usr": "s:Sb"
+        }
+      ],
+      "declKind": "Var",
+      "usr": "s:20workUnixMilliseconds13valideCountrySbvp",
+      "mangledName": "$s20workUnixMilliseconds13valideCountrySbvp",
+      "moduleName": "workUnixMilliseconds",
+      "declAttributes": [
+        "HasInitialValue",
+        "HasStorage"
+      ],
+      "hasStorage": true
+    },
+    {
+      "kind": "Var",
+      "name": "diferenceTime",
+      "printedName": "diferenceTime",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "Optional",
+          "printedName": "Swift.Double?",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "usr": "s:Sq"
+        }
+      ],
+      "declKind": "Var",
+      "usr": "s:20workUnixMilliseconds13diferenceTimeSdSgvp",
+      "mangledName": "$s20workUnixMilliseconds13diferenceTimeSdSgvp",
+      "moduleName": "workUnixMilliseconds",
+      "declAttributes": [
+        "HasInitialValue",
+        "HasStorage"
+      ],
+      "hasStorage": true
+    }
+  ],
+  "json_format_version": 6
+}

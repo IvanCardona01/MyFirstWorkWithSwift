@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMilliseconds.build/master.swiftdeps"
+  },
+  "/home/danielapps/Swift/firstWorkInSwift/Sources/workUnixMilliseconds/model/ConverterOfUnixMillisecondsInDateTime.swift": {
+    "dependencies": "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMilliseconds.build/model/ConverterOfUnixMillisecondsInDateTime.d",
+    "object": "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMilliseconds.build/model/ConverterOfUnixMillisecondsInDateTime.swift.o",
+    "swiftmodule": "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMilliseconds.build/model/ConverterOfUnixMillisecondsInDateTime~partial.swiftmodule",
+    "swift-dependencies": "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMilliseconds.build/model/ConverterOfUnixMillisecondsInDateTime.swiftdeps"
+  },
+  "/home/danielapps/Swift/firstWorkInSwift/Sources/workUnixMilliseconds/presenter/main.swift": {
+    "dependencies": "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMilliseconds.build/presenter/main.d",
+    "object": "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMilliseconds.build/presenter/main.swift.o",
+    "swiftmodule": "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMilliseconds.build/presenter/main~partial.swiftmodule",
+    "swift-dependencies": "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMilliseconds.build/presenter/main.swiftdeps"
+  }
+}

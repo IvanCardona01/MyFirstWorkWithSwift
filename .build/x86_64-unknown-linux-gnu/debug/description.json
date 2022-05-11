@@ -1,0 +1,219 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsPackageTests.xctest",
+      "productName" : "workUnixMillisecondsPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "swiftCommands" : {
+    "C.workUnixMilliseconds-debug.module" : {
+      "executable" : "/usr/share/swift/usr/bin/swiftc",
+      "importPath" : "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/danielapps/Swift/firstWorkInSwift/Sources/workUnixMilliseconds/model/ConverterOfUnixMillisecondsInDateTime.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/danielapps/Swift/firstWorkInSwift/Sources/workUnixMilliseconds/presenter/main.swift"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "workUnixMilliseconds",
+      "moduleOutputPath" : "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMilliseconds.swiftmodule",
+      "objects" : [
+        "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMilliseconds.build/model/ConverterOfUnixMillisecondsInDateTime.swift.o",
+        "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMilliseconds.build/presenter/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-linux-gnu",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j4",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "workUnixMilliseconds_main",
+        "-color-diagnostics"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMilliseconds.build/model/ConverterOfUnixMillisecondsInDateTime.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMilliseconds.build/presenter/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMilliseconds.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/home/danielapps/Swift/firstWorkInSwift/Sources/workUnixMilliseconds/model/ConverterOfUnixMillisecondsInDateTime.swift",
+        "/home/danielapps/Swift/firstWorkInSwift/Sources/workUnixMilliseconds/presenter/main.swift"
+      ],
+      "tempsPath" : "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMilliseconds.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.workUnixMillisecondsPackageTests-debug.module" : {
+      "executable" : "/usr/share/swift/usr/bin/swiftc",
+      "importPath" : "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsPackageTests.derived/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsPackageTests.derived/workUnixMillisecondsTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsTests.swiftmodule"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "workUnixMillisecondsPackageTests",
+      "moduleOutputPath" : "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsPackageTests.swiftmodule",
+      "objects" : [
+        "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsPackageTests.build/main.swift.o",
+        "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsPackageTests.build/workUnixMillisecondsTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-linux-gnu",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j4",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output",
+        "-color-diagnostics"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsPackageTests.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsPackageTests.build/workUnixMillisecondsTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsPackageTests.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsPackageTests.derived/main.swift",
+        "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsPackageTests.derived/workUnixMillisecondsTests.swift"
+      ],
+      "tempsPath" : "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.workUnixMillisecondsTests-debug.module" : {
+      "executable" : "/usr/share/swift/usr/bin/swiftc",
+      "importPath" : "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/danielapps/Swift/firstWorkInSwift/Tests/workUnixMillisecondsTests/workUnixMillisecondsTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMilliseconds"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "workUnixMillisecondsTests",
+      "moduleOutputPath" : "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsTests.swiftmodule",
+      "objects" : [
+        "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsTests.build/workUnixMillisecondsTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-linux-gnu",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j4",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsTests.build/workUnixMillisecondsTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsTests.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/home/danielapps/Swift/firstWorkInSwift/Tests/workUnixMillisecondsTests/workUnixMillisecondsTests.swift"
+      ],
+      "tempsPath" : "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "testDiscoveryCommands" : {
+    "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsPackageTests.derived/main.swift" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsTests.build/workUnixMillisecondsTests.swift.o"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsPackageTests.derived/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsPackageTests.derived/workUnixMillisecondsTests.swift"
+        }
+      ]
+    }
+  }
+}

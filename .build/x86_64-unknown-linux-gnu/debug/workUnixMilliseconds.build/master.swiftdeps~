@@ -1,0 +1,7 @@
+version: "Swift version 5.5.2 (swift-5.5.2-RELEASE)"
+options: "8ef5046fbbd1600d3acfa786da61fd8406f925629add4420526302146e4e0aa2"
+build_start_time: [1652248935, 218253135]
+build_end_time: [1652248937, 813789844]
+inputs:
+  "/home/danielapps/Swift/firstWorkInSwift/Sources/workUnixMilliseconds/model/ConverterOfUnixMillisecondsInDateTime.swift": !private [1652243800, 906313896]
+  "/home/danielapps/Swift/firstWorkInSwift/Sources/workUnixMilliseconds/presenter/main.swift": [1652248917, 540209770]

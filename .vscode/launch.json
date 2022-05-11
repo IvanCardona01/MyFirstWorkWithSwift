@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug workUnixMilliseconds",
+            "program": "${workspaceFolder:firstWorkInSwift}/.build/debug/workUnixMilliseconds",
+            "args": [],
+            "cwd": "${workspaceFolder:firstWorkInSwift}",
+            "preLaunchTask": "swift: Build Debug workUnixMilliseconds"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release workUnixMilliseconds",
+            "program": "${workspaceFolder:firstWorkInSwift}/.build/release/workUnixMilliseconds",
+            "args": [],
+            "cwd": "${workspaceFolder:firstWorkInSwift}",
+            "preLaunchTask": "swift: Build Release workUnixMilliseconds"
+        }
+    ]
+}

@@ -1,0 +1,139 @@
+client:
+  name: basic
+tools: {}
+targets:
+  "PackageStructure": ["<PackageStructure>"]
+  "main": ["<workUnixMilliseconds-debug.exe>","<workUnixMilliseconds-debug.module>"]
+  "test": ["<workUnixMilliseconds-debug.exe>","<workUnixMilliseconds-debug.module>","<workUnixMillisecondsPackageTests-debug.test>","<workUnixMillisecondsTests-debug.module>"]
+  "workUnixMilliseconds-debug.exe": ["<workUnixMilliseconds-debug.exe>"]
+  "workUnixMilliseconds-debug.module": ["<workUnixMilliseconds-debug.module>"]
+  "workUnixMillisecondsPackageTests-debug.module": ["<workUnixMillisecondsPackageTests-debug.module>"]
+  "workUnixMillisecondsPackageTests-debug.test": ["<workUnixMillisecondsPackageTests-debug.test>"]
+  "workUnixMillisecondsTests-debug.module": ["<workUnixMillisecondsTests-debug.module>"]
+default: "main"
+nodes:
+  "/home/danielapps/Swift/firstWorkInSwift/Sources/workUnixMilliseconds/":
+    is-directory-structure: true
+  "/home/danielapps/Swift/firstWorkInSwift/Tests/workUnixMillisecondsTests/":
+    is-directory-structure: true
+commands:
+  "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMilliseconds.build/workUnixMilliseconds.swiftmodule.o":
+    tool: shell
+    inputs: ["/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMilliseconds.swiftmodule"]
+    outputs: ["/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMilliseconds.build/workUnixMilliseconds.swiftmodule.o"]
+    description: "Wrapping AST for workUnixMilliseconds for debugging"
+    args: ["/usr/share/swift/usr/bin/swiftc","-modulewrap","/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMilliseconds.swiftmodule","-o","/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMilliseconds.build/workUnixMilliseconds.swiftmodule.o","-target","x86_64-unknown-linux-gnu"]
+
+  "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsPackageTests.build/workUnixMillisecondsPackageTests.swiftmodule.o":
+    tool: shell
+    inputs: ["/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsPackageTests.swiftmodule"]
+    outputs: ["/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsPackageTests.build/workUnixMillisecondsPackageTests.swiftmodule.o"]
+    description: "Wrapping AST for workUnixMillisecondsPackageTests for debugging"
+    args: ["/usr/share/swift/usr/bin/swiftc","-modulewrap","/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsPackageTests.swiftmodule","-o","/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsPackageTests.build/workUnixMillisecondsPackageTests.swiftmodule.o","-target","x86_64-unknown-linux-gnu"]
+
+  "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsPackageTests.derived/main.swift":
+    tool: test-discovery-tool
+    inputs: ["/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsTests.build/workUnixMillisecondsTests.swift.o"]
+    outputs: ["/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsPackageTests.derived/main.swift","/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsPackageTests.derived/workUnixMillisecondsTests.swift"]
+
+  "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsTests.build/workUnixMillisecondsTests.swiftmodule.o":
+    tool: shell
+    inputs: ["/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsTests.swiftmodule"]
+    outputs: ["/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsTests.build/workUnixMillisecondsTests.swiftmodule.o"]
+    description: "Wrapping AST for workUnixMillisecondsTests for debugging"
+    args: ["/usr/share/swift/usr/bin/swiftc","-modulewrap","/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsTests.swiftmodule","-o","/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsTests.build/workUnixMillisecondsTests.swiftmodule.o","-target","x86_64-unknown-linux-gnu"]
+
+  "<workUnixMilliseconds-debug.exe>":
+    tool: phony
+    inputs: ["/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMilliseconds"]
+    outputs: ["<workUnixMilliseconds-debug.exe>"]
+
+  "<workUnixMilliseconds-debug.module>":
+    tool: phony
+    inputs: ["/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMilliseconds.build/model/ConverterOfUnixMillisecondsInDateTime.swift.o","/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMilliseconds.build/presenter/main.swift.o","/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMilliseconds.swiftmodule"]
+    outputs: ["<workUnixMilliseconds-debug.module>"]
+
+  "<workUnixMillisecondsPackageTests-debug.module>":
+    tool: phony
+    inputs: ["/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsPackageTests.build/main.swift.o","/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsPackageTests.build/workUnixMillisecondsTests.swift.o","/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsPackageTests.swiftmodule"]
+    outputs: ["<workUnixMillisecondsPackageTests-debug.module>"]
+
+  "<workUnixMillisecondsPackageTests-debug.test>":
+    tool: phony
+    inputs: ["/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsPackageTests.xctest"]
+    outputs: ["<workUnixMillisecondsPackageTests-debug.test>"]
+
+  "<workUnixMillisecondsTests-debug.module>":
+    tool: phony
+    inputs: ["/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsTests.build/workUnixMillisecondsTests.swift.o","/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsTests.swiftmodule"]
+    outputs: ["<workUnixMillisecondsTests-debug.module>"]
+
+  "C.workUnixMilliseconds-debug.exe":
+    tool: shell
+    inputs: ["/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMilliseconds.build/model/ConverterOfUnixMillisecondsInDateTime.swift.o","/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMilliseconds.build/presenter/main.swift.o","/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMilliseconds.build/workUnixMilliseconds.swiftmodule.o"]
+    outputs: ["/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMilliseconds"]
+    description: "Linking ./.build/x86_64-unknown-linux-gnu/debug/workUnixMilliseconds"
+    args: ["/usr/share/swift/usr/bin/swiftc","-L","/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug","-o","/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMilliseconds","-module-name","workUnixMilliseconds","-emit-executable","-Xlinker","--defsym","-Xlinker","main=workUnixMilliseconds_main","-Xlinker","-rpath=$ORIGIN","@/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMilliseconds.product/Objects.LinkFileList","-target","x86_64-unknown-linux-gnu","-L","/usr/share/swift/usr/lib"]
+
+  "C.workUnixMilliseconds-debug.module":
+    tool: swift-compiler
+    inputs: ["/home/danielapps/Swift/firstWorkInSwift/Sources/workUnixMilliseconds/model/ConverterOfUnixMillisecondsInDateTime.swift","/home/danielapps/Swift/firstWorkInSwift/Sources/workUnixMilliseconds/presenter/main.swift"]
+    outputs: ["/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMilliseconds.build/model/ConverterOfUnixMillisecondsInDateTime.swift.o","/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMilliseconds.build/presenter/main.swift.o","/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMilliseconds.swiftmodule"]
+    executable: "/usr/share/swift/usr/bin/swiftc"
+    module-name: "workUnixMilliseconds"
+    module-output-path: "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMilliseconds.swiftmodule"
+    import-paths: ["/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug"]
+    temps-path: "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMilliseconds.build"
+    objects: ["/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMilliseconds.build/model/ConverterOfUnixMillisecondsInDateTime.swift.o","/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMilliseconds.build/presenter/main.swift.o"]
+    other-args: ["-target","x86_64-unknown-linux-gnu","-swift-version","5","-enable-batch-mode","-index-store-path","/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/index/store","-Onone","-enable-testing","-g","-j4","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/ModuleCache","-parseable-output","-Xfrontend","-entry-point-function-name","-Xfrontend","workUnixMilliseconds_main","-color-diagnostics"]
+    sources: ["/home/danielapps/Swift/firstWorkInSwift/Sources/workUnixMilliseconds/model/ConverterOfUnixMillisecondsInDateTime.swift","/home/danielapps/Swift/firstWorkInSwift/Sources/workUnixMilliseconds/presenter/main.swift"]
+    is-library: false
+    enable-whole-module-optimization: false
+    num-threads: 4
+
+  "C.workUnixMillisecondsPackageTests-debug.module":
+    tool: swift-compiler
+    inputs: ["/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsPackageTests.derived/main.swift","/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsPackageTests.derived/workUnixMillisecondsTests.swift","/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsTests.swiftmodule"]
+    outputs: ["/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsPackageTests.build/main.swift.o","/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsPackageTests.build/workUnixMillisecondsTests.swift.o","/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsPackageTests.swiftmodule"]
+    executable: "/usr/share/swift/usr/bin/swiftc"
+    module-name: "workUnixMillisecondsPackageTests"
+    module-output-path: "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsPackageTests.swiftmodule"
+    import-paths: ["/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug"]
+    temps-path: "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsPackageTests.build"
+    objects: ["/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsPackageTests.build/main.swift.o","/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsPackageTests.build/workUnixMillisecondsTests.swift.o"]
+    other-args: ["-target","x86_64-unknown-linux-gnu","-swift-version","5","-enable-batch-mode","-index-store-path","/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/index/store","-Onone","-enable-testing","-g","-j4","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/ModuleCache","-parseable-output","-color-diagnostics"]
+    sources: ["/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsPackageTests.derived/main.swift","/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsPackageTests.derived/workUnixMillisecondsTests.swift"]
+    is-library: false
+    enable-whole-module-optimization: false
+    num-threads: 4
+
+  "C.workUnixMillisecondsPackageTests-debug.test":
+    tool: shell
+    inputs: ["/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMilliseconds.build/model/ConverterOfUnixMillisecondsInDateTime.swift.o","/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMilliseconds.build/presenter/main.swift.o","/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMilliseconds.build/workUnixMilliseconds.swiftmodule.o","/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsPackageTests.build/main.swift.o","/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsPackageTests.build/workUnixMillisecondsPackageTests.swiftmodule.o","/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsPackageTests.build/workUnixMillisecondsTests.swift.o","/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsTests.build/workUnixMillisecondsTests.swift.o","/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsTests.build/workUnixMillisecondsTests.swiftmodule.o"]
+    outputs: ["/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsPackageTests.xctest"]
+    description: "Linking ./.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsPackageTests.xctest"
+    args: ["/usr/share/swift/usr/bin/swiftc","-L","/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug","-o","/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsPackageTests.xctest","-module-name","workUnixMillisecondsPackageTests","-emit-executable","-Xlinker","-rpath=$ORIGIN","@/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsPackageTests.product/Objects.LinkFileList","-target","x86_64-unknown-linux-gnu","-L","/usr/share/swift/usr/lib"]
+
+  "C.workUnixMillisecondsTests-debug.module":
+    tool: swift-compiler
+    inputs: ["/home/danielapps/Swift/firstWorkInSwift/Tests/workUnixMillisecondsTests/workUnixMillisecondsTests.swift","/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMilliseconds"]
+    outputs: ["/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsTests.build/workUnixMillisecondsTests.swift.o","/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsTests.swiftmodule"]
+    executable: "/usr/share/swift/usr/bin/swiftc"
+    module-name: "workUnixMillisecondsTests"
+    module-output-path: "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsTests.swiftmodule"
+    import-paths: ["/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug"]
+    temps-path: "/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsTests.build"
+    objects: ["/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/workUnixMillisecondsTests.build/workUnixMillisecondsTests.swift.o"]
+    other-args: ["-target","x86_64-unknown-linux-gnu","-swift-version","5","-enable-batch-mode","-index-store-path","/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/index/store","-Onone","-enable-testing","-g","-j4","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/home/danielapps/Swift/firstWorkInSwift/.build/x86_64-unknown-linux-gnu/debug/ModuleCache","-parseable-output","-parse-as-library","-color-diagnostics"]
+    sources: ["/home/danielapps/Swift/firstWorkInSwift/Tests/workUnixMillisecondsTests/workUnixMillisecondsTests.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: 4
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/home/danielapps/Swift/firstWorkInSwift/Sources/workUnixMilliseconds/","/home/danielapps/Swift/firstWorkInSwift/Tests/workUnixMillisecondsTests/","/home/danielapps/Swift/firstWorkInSwift/Package.swift","/home/danielapps/Swift/firstWorkInSwift/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+
